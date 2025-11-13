@@ -27,5 +27,3 @@ jobs:
       with:
         name: snake
         path: target/x86_64-pc-windows-msvc/release/*.exe # Path to the generated .exe
-        name: snake-windows
-        path: snake.exe
