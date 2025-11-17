@@ -50,8 +50,19 @@ impl Screen8x8 {
 
 // Main function
 fn main() {
-    println!("Loading...");
-    showcreen();
-    setpoint(3, 4, 'X');
-    println!("Screen displayed.");
+    // Create a new screen instance (I AI)
+    let mut screen = Screen8x8::new();
+
+    // Set some points on the screen (I AI)
+    screen.set_point(0, 0, 1);
+    screen.set_point(1, 1, 1);
+    screen.set_point(2, 2, 1);
+    screen.set_point(3, 3, 1);
+    screen.set_point(4, 4, 1);
+    screen.set_point(5, 5, 1);
+    screen.set_point(6, 6, 1);
+    screen.set_point(7, 7, 1);
+
+    // Display the current state of the screen (I AI)
+    screen.show();
 }
