@@ -65,4 +65,5 @@ fn main() {
 
     // Display the current state of the screen (I AI)
     screen.show();
+    sleep::sleep(std::time::Duration::from_secs(2));
 }
